@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:15235",
-      "sslPort": 44321
+      "applicationUrl": "http://localhost:46310",
+      "sslPort": 44315
     }
   },
   "profiles": {
@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "ContosoUniversity": {
+    "HendrixCollege": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,
