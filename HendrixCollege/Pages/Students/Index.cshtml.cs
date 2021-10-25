@@ -22,6 +22,7 @@ namespace HendrixCollege.Pages.Students
 
         public string NameSort { get; set; }
         public string DateSort { get; set; }
+        public string AgeSort { get; set; }
         public string CurrentFilter { get; set; }
         public string CurrentSort { get; set; }
 
@@ -31,6 +32,7 @@ namespace HendrixCollege.Pages.Students
             string currentFilter, string searchString, int? pageIndex)
         {
             CurrentSort = sortOrder;
+            AgeSort = String.IsNullOrEmpty(sortOrder) ? "age_desc" : "";
             NameSort = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
             DateSort = sortOrder == "Date" ? "date_desc" : "Date";
             if (searchString != null)
@@ -61,6 +63,9 @@ namespace HendrixCollege.Pages.Students
                     break;
                 case "date_desc":
                     studentsIQ = studentsIQ.OrderByDescending(s => s.EnrollmentDate);
+                    break;
+                case "age_desc":
+                    studentsIQ = studentsIQ.OrderByDescending(s => s.Age);
                     break;
                 default:
                     studentsIQ = studentsIQ.OrderBy(s => s.LastName);
