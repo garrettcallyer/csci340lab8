@@ -170,3 +170,8 @@ C:\Local Github\csci340lab8\HendrixCollege\obj\Debug\net5.0\Razor\Pages\Students
 C:\Local Github\csci340lab8\HendrixCollege\obj\Debug\net5.0\Razor\Pages\Students\Edit.cshtml.g.cs
 C:\Local Github\csci340lab8\HendrixCollege\obj\Debug\net5.0\Razor\Pages\Students\Index.cshtml.g.cs
 C:\Local Github\csci340lab8\HendrixCollege\obj\Debug\net5.0\Razor\Pages\About.cshtml.g.cs
+C:\Local Github\csci340lab8\HendrixCollege\obj\Debug\net5.0\Razor\Pages\Courses\Create.cshtml.g.cs
+C:\Local Github\csci340lab8\HendrixCollege\obj\Debug\net5.0\Razor\Pages\Courses\Delete.cshtml.g.cs
+C:\Local Github\csci340lab8\HendrixCollege\obj\Debug\net5.0\Razor\Pages\Courses\Details.cshtml.g.cs
+C:\Local Github\csci340lab8\HendrixCollege\obj\Debug\net5.0\Razor\Pages\Courses\Edit.cshtml.g.cs
+C:\Local Github\csci340lab8\HendrixCollege\obj\Debug\net5.0\Razor\Pages\Courses\Index.cshtml.g.cs
